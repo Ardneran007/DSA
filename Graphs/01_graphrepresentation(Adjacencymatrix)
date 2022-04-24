@@ -1,0 +1,54 @@
+Graph Representation
+1.Adjacency Matrix
+2.Adjacency List
+--------------------------------------------------------------------------------------------------
+1.Adjacency Matrix
+create Matrix of size |V|X|V|
+mat[i][j]=1  if there is a vertex from i to j
+UnDirected graph->
+0                                        0  1  2  3
+|  \                                   0|0  1  1  0|
+|   \                                  1|1  0  1  0|  => this is symmetric
+|    2_______3                         2|1  1  0  1|
+|   /                                  3|0  0  1  0|
+|  /
+1 
+
+*For UnDirected graph the Adjacency Matrix is always SYMMETRIC
+
+Directed Graph->
+0                                         0  1  2  3
+|  \                                    0|0  1  1  0|
+|   \;                                  1|0  0  1  0|  => this is not symmetric
+|    2_______>3                         2|0  0  0  1|  =>Here 1 represents that there is a outgoing edge
+|   /;                                  3|0  0  0  0|
+|; /
+1                    here ; meains there is a -> 
+
+*For Directed graph the Adjacency Matrix may be  SYMMETRIC
+-----------------------------------------------------------------------------------------------------
+what if the vertices are names
+
+ABC                                      0  1  2  3
+|  \                                   0|0  1  1  0|
+|   \                                  1|1  0  1  0|  => this is symmetric
+|    CDE_______EFG                     2|1  1  0  1|
+|   /                                  3|0  0  1  0|
+|  /
+BCD
+we can sue array of strings ie assign a interger to a city 
+but 
+for efficient implementation,one hash table would be require to do reverse mapping
+h[ABC]=0
+h[BCD]=0
+h[CDE]=0
+h[EFG]=0
+-----------------------------------------------------------------------------------------------------
+Properties of Adjacency Matrix
+Space required->theta(VXV)
+Operations
+1.check if v and u are adjacent theta(1)
+2.Find all adjacents of u       theta(v)
+3.Find degree of vertex         theta(v)
+4.Add/remove and edge           theta(1)
+5.ADd/remove a vetex            theta(v*v)
