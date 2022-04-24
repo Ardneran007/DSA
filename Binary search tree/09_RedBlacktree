@@ -1,0 +1,20 @@
+AVL Tree is very strict ie height diff bw left and right
+tree is less than 1 but RED BLACK TREE is very strict
+------------------------------------------------------
+Advantage of being loose->less reconstruction
+Disadvantage->height may become high which may cause search costly
+-------------------------------------------------------
+definitionof RED BLACK TREES
+1.Every Node is either Red or Black
+2.Root is always Black
+IMP POINTS which make tree as balanced
+3.No two consecutive REDs
+4.No of black tree to every node to all of descendant leave should 
+be same
+----------------------------------------------------------
+Number of NOdes on the path from node to itsfarthest descendant leaf
+should not be more than twice than the numner of NOdes on path to itsclosest descendant leaf
+
+so insertions and deletion sare faster here 
+in insertion we avoid the reconstructio nby switching colours 
+use by SET and Maps

@@ -1,0 +1,25 @@
+1.It is BST
+2.It is height balanced RULE(The differenece b/w left and 
+right hgts does not exceeds one)
+BALANCED FACTOR=mod(lh-rh)
+BAlancde factor<=1
+----------------------------------------------------------------------------------
+Operations
+1.search is same 
+insertion and deletion are unbalanced
+2.insert Algo
+    a.perform normal BST insert
+    b.traverse all the ancestors of the newly inserted node from node to root**(VIMP)
+    c.if find an unbalanced node check for any of the causes
+        1.LEFT LEFT     Single Rotation
+        2.RIGHT RIGHT   Single Rotation
+        3.LEFT RIGHT    Double Rotation
+        4.RIGHT LEFT    Double Rotation
+VIMP->//check the diagram for better understanding
+
+height of AVL treesh<clog(n+2) + b
+    c~1.44//very small for red black it is higher
+    b~-1.3277
+SO time taken for Search is logn
+-----------------------------------------------------------------------------------------
+Rotations are done on 3 Nodes

@@ -1,0 +1,14 @@
+1.TO maintain sorted stream of data
+2.To implement doubly endedpriority queue
+3.TO solve problems like    
+    a.COunt smaller/greater in a stream
+    eg while selling online count elements sold below this price
+    b.Floor/ceil/Floor?greater/smaller in a stream
+
+---------------------------------------------------------------
+TIP-
+if there is only search insert delete or a subset of it
+THEN USE HASH TABLE  as O(1) 
+
+but if subset of search insert delete +(maintain data in sorted form)/(count smaller greater)(floor ceil )
+THEN USE TREES

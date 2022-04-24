@@ -1,0 +1,26 @@
+is to keep height in check ie keep heigth as theta(logn)
+heights depends on how u insert keys
+---------------------------------------------------------------
+if u know the keys to be inserted then first sort
+it make its middle as root and middle of left oart as root of 
+left subtree and so on.....
+---------------------------------------------------------------
+How to keep it balanced when insertion and 
+deletion occurs?
+Do some extra work while inserting  and deletion like while inserting
+if u releazie balnce is not there then RESTRUCTURE the BST
+
+ROTATION->Way to restructure the BST without violating BST
+Rotating is O(1) operation
+this restructuring is of two t ypes
+1.right rotation
+2.left rotation
+//check the diagram for more understanding
+------------------------------------------------------------------
+Examples of self Balancing RED BLACK trees
+1.AVL trees(very strict in terms of height)
+2.Red Black Trees(loose in terms of balance) so the advantage is 
+it causes less restructuring while inserting and deleting
+in general RedBlacktrees are used more
+
+MAPS AND SETS USE RED BLACK TREES
