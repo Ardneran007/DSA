@@ -1,0 +1,8 @@
+If we know keys in advance then we can Perfect
+hashing(it guarantees No collision)
+If we do not know Key,then we use one of the following
+1.Chaining
+2.Open addressing
+    a.Linear Probling
+    b.Quadratic Probling
+    c.Double Hashing

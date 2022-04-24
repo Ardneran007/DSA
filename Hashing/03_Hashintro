@@ -1,0 +1,23 @@
+To overcome for direct address table we need 
+hashing
+eg->Phone numbres,Emplouyee id
+
+
+large keys--->HASH FUNCTIONS(which convert large key to small value)---->Hash table
+--------------------------------------------------------------
+How HAsh function swork?
+1.Should alwasy map a large key to small key
+2.Should generate values from 0 to m-1
+3.should be fsat ,O(1)for integers and O(len)
+for strings
+4. HASH functions should unifor,y distribute large keysinto HASH 
+Table slots
+-------------------------------------------------------------------
+eg
+1.h(large_key)=large_key%m
+2.For strings ,weighted sum
+str[]="abcd
+3.m is typically chosen as prime number close to hash table
+4.BAd value of n i power of 10 
+5.avoid prime number t=close to powers of 10
+6.Universal hashing

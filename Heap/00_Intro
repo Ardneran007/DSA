@@ -1,0 +1,24 @@
+ Binary Heap
+1.Used in heapsor
+2.Used to implement priority queue
+3.Two types
+    a.Min heap(Highest Priority item is assigned lowest value)
+    b.Max heap(Highest Priority item is assigned highest value)
+------------------------------------------------------------------------------------------------
+
+Binary heap is a complete Binary Tree(stored as a array)
+complete Binary tree is a tree where al Nodes are filleed and even if last level 
+is Not filled completely it must not have any gaps ie it must have Nodes from
+left to right
+
+we want to store Binary heap as an array so 
+//0th indexing
+left(i)=2*i+1
+right(i)=2*i+2
+parent=floor(i-1/2)
+Maximum Nodes at Height h(where  h is zero at bottom )=upperbound(n/pow(2,h+1))
+------------------------------------------------------------------------------------------------
+Min Heap
+    1.Complete Binary Tree
+    2.Every node has value smaller than its descendants(root is smaller than all its below Node)
+Min Heap is internally represented as an array    

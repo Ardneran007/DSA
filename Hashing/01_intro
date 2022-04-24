@@ -1,0 +1,23 @@
+Hashing
+mainly used in dictionary
+expert--> search,insert,delete->O(1) on average
+------------------------------------------------------
+Operations not provided by Hashing
+1.Find closest value(here we use AVL or RED Black Tree)
+2.Sorted Data(here we use AVL or RED Black Tree)
+3.Prefix searching(use TRIE)
+-----------------------------------------------------
+Application of Hashing
+1. Implementing Dictionary
+2.database indexing
+3.Cryptography
+4.Caches
+5.Symbol Table in COmputers/Interpreters
+6.Router
+7.Getting Data From database
+and Many more
+------------------------------------------------------
+Direct Address Table
+handles in O(1) when small keys or small range 
+Now How to implement search insert and Delete in O(1)
+->create boolean array[1000] initialize all elemnets a 0

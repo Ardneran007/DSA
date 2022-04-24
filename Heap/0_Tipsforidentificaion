@@ -1,0 +1,13 @@
+1.How to identify wheteher the problem is of heap?
+-> whenever in qus k is given and smallest/largest is given it is heap problem
+ie>> k+(smallest/largest)=heap
+------------------------------------------------------------------------------------
+2.a k + smallest --> MAXHEAP
+  b k + largest  --> MINHEAP
+a) we need to find kth smallest ie we need to eliminate maxium so use maxheap
+------------------------------------------------------------------------------------
+sorting->nlogn   
+k is given nlogk
+-----------------------------------------------------------------------------------
+Largest,Greatest,Top->MINHEAP
+smallest,lowest,closest-->MAXHEAP
