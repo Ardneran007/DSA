@@ -1,0 +1,13 @@
+Advantage of BFS->
+    Always find a shortest path from source to all other vertices
+1.shortest path in an unweighted graph
+2.Crawlers in search Engine
+3.Peer to Peer Networks
+4.Social Networking search 
+5.In garbage collection (Cheery's Ago)
+6.Cycle detection
+7.Fond Fulkerson Algorithm
+8.Broadcasting
+9.Bipartite**(IMP) lec26 aplications of BFS
+
+if a graph has a odd cycle then it cannot be a Bipartite

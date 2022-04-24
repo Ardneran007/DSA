@@ -1,0 +1,10 @@
+1.Cycle detection
+2.Topological Sorting(Particularly useful for dependency graph ie when we have depedency on jobs and we want to schedule the jobs)
+//ex of Topological SOrt is Makefile Utility(here we use dependency about the fileto be compilled)
+//we specify that this file should be compilled aftre this file and so on
+ie Makefile internaly uses Topological Sort only
+3.Strongly connceted components
+4.SOLVING PROBLEMS LIKE MAZE (DFS is always preffered over BFS)
+5.Path finding(DFS is natural for printing the path)
+ie in th erecursion call stack there are all the edge that are on the 
+path we just need to print 
