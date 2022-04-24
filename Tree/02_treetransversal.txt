@@ -1,0 +1,13 @@
+Tree Traversal
+Tree Traversal is basically going through every node(key) exactly once.
+In this video we briefly discuss:
+Types of Tree Traversal i.e.
+ Breadth-First Search(BFS) 
+ Line wise printing
+ Depth First Search(DFS).
+ {we need to do three things 1.transverse root 2. transverse left subtree 3. transverse right subtree}
+ 3! combiations->6 out of which we take the 3 famous transversals
+we take 3 combinations in which left comes b4 right
+Inorder    Left Root Right 
+preorder   Root Left right    
+postorder  Left Right Root
